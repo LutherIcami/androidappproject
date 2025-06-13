@@ -1,18 +1,11 @@
 package com.example.adminuserapp.data.models
 
-data class ProjectStatistics(
-    val totalProjects: Int,
-    val activeProjects: Int,
-    val completedProjects: Int,
-    val totalBudget: Double,
-    val totalSpent: Double
-)
-
-data class FinancialStatistics(
-    val totalRevenue: Double,
-    val totalExpenses: Double,
-    val totalPayments: Double,
-    val pendingInvoices: Int,
-    val overdueInvoices: Int,
-    val profit: Double
+data class Statistics(
+    val totalProjects: Int = 0,
+    val activeProjects: Int = 0,
+    val completedProjects: Int = 0,
+    val totalBudget: Double = 0.0,
+    val totalTeamMembers: Int = 0,
+    val projectCompletionRate: Double = 0.0,
+    val averageProjectDuration: Double = 0.0
 ) 
