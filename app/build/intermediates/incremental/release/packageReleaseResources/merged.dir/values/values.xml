@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdminUserApp</string>
+    <style name="Theme.AdminUserApp" parent="Theme.Material3.DayNight">
+        
+    </style>
+</resources>

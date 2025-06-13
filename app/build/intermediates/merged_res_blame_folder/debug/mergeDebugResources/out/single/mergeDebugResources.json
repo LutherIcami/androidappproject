@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.adminuserapp-debug-70:/mipmap_ic_launcher.png.flat",
+        "source": "com.example.adminuserapp-main-72:/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.adminuserapp-debug-70:/mipmap_ic_launcher_round.png.flat",
+        "source": "com.example.adminuserapp-main-72:/mipmap/ic_launcher_round.png"
+    }
+]
